@@ -1,7 +1,9 @@
-package receiver;
+package com.pwi.redad.receiver;
 
 
 
+
+import com.pwi.redad.activities.RedAdActivity;
 
 import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
@@ -10,7 +12,6 @@ import android.content.Intent;
 
 import android.widget.Toast;
 
-import pro.wizard.RedAdActivity;;
 public class RedAdReceiver extends BroadcastReceiver {
 
 	 public static boolean wasScreenOn = true;

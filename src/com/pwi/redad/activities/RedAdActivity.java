@@ -1,7 +1,10 @@
-package pro.wizard;
+package com.pwi.redad.activities;
 
 
-import receiver.RedAdReceiver;
+import com.pwi.redad.receiver.RedAdReceiver;
+import com.pwi.redad.services.RedService;
+
+import pro.wizard.R;
 import android.app.Activity;
 import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;

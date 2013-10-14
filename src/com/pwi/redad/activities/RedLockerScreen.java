@@ -1,6 +1,8 @@
-package pro.wizard;
+package com.pwi.redad.activities;
 
 
+
+import com.pwi.redad.services.RedService;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
